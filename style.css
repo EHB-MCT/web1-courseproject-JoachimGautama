@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: bisque;
+  height: 80px;
+
+  img {
+    max-height: 80px;
+    mix-blend-mode: darken;
+  }
+
+  welcome {
+    text-align: center;
+  }
+  h3 {
+    position: absolute;
+    margin-top: 50px;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-transform: uppercase;
+
+  div {
+    margin-top: 10%;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(105, 1, 161);
+  }
+}
