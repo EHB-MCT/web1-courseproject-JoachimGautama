@@ -15,6 +15,11 @@ header {
   padding: 0 40px;
   background-color: bisque;
   height: 80px;
+  /* sticky position found on w3schools https://www.w3schools.com/howto/howto_js_sticky_header.asp */
+  position: sticky;
+  /* position where div should stick to (upon reaching this x, it stays */
+  top: 0;
+  width: 100%;
 
   img {
     max-height: 80px;
