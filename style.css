@@ -63,7 +63,7 @@ header {
       color: whitesmoke;
     }
     a:hover {
-      color: #fde6e2;
+      color: #fcccc5;
     }
   }
 
@@ -73,7 +73,7 @@ header {
 }
 
 .outerbod {
-  background-color: #fde6e2;
+  background-color: #fcccc5;
 }
 
 .wrapper {
