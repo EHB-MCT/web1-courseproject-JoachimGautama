@@ -82,6 +82,11 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(10, 1fr);
+
+  gap: 20px;
+  img {
+    border-radius: 10px;
+  }
 }
 
 .intro {
@@ -97,7 +102,10 @@ header {
   img {
     width: 100%;
     max-height: 300px;
+    border-radius: unset;
+    box-shadow: unset;
   }
+
   mix-blend-mode: darken;
   align-self: center;
   justify-self: center;
@@ -107,14 +115,36 @@ header {
   grid-column: 7/12;
   grid-row: 3/6;
   align-self: center;
+  justify-self: center;
 }
 
 .story-img {
   grid-column: 2/7;
   grid-row: 3/6;
+  align-items: ;
+
   img {
     max-height: 400px;
   }
   mix-blend-mode: luminosity;
   align-self: center;
+}
+
+.story2 {
+  grid-row: 6/9;
+  grid-column: 2/7;
+  align-self: center;
+  justify-self: center;
+}
+
+.story-img2 {
+  grid-row: 6/9;
+  grid-column: 7/12;
+  align-self: center;
+
+  img {
+    max-height: 400px;
+    mix-blend-mode: luminosity;
+    filter: contrast(0.9);
+  }
 }
