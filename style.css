@@ -27,14 +27,7 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr;
-  height: 80px;
-  width: 95%;
-  margin: 0 auto;
   z-index: inherit;
-  color: whitesmoke;
 
   img {
     max-height: 80px;
@@ -46,25 +39,35 @@ header {
     justify-self: center;
     grid-column: 3/10;
   }
+}
 
-  nav {
-    grid-column: -4/-1;
-    justify-content: end;
-    display: flex;
-    flex-direction: row;
-    text-transform: uppercase;
-    gap: 20px;
-    div {
-      margin-top: 10%;
-    }
+.topbot {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  height: 80px;
+  width: 95%;
+  margin: 0 auto;
+  color: whitesmoke;
 
-    a {
-      text-decoration: none;
-      color: whitesmoke;
-    }
-    a:hover {
-      color: #fcccc5;
-    }
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  a:hover {
+    color: #fcccc5;
+  }
+}
+
+nav {
+  grid-column: -4/-1;
+  justify-content: end;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  gap: 20px;
+  div {
+    margin-top: 10%;
   }
 
   h3 {
@@ -157,3 +160,30 @@ header {
     filter: contrast(0.9);
   }
 }
+
+footer {
+  margin-top: 50px;
+  padding-bottom: 5px;
+
+  .topbot .slogan {
+    grid-column: 3/10;
+    justify-self: center;
+  }
+
+  nav {
+    grid-column: -3/-1;
+    gap: unset;
+    text-transform: lowercase;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+    div {
+      margin-top: unset;
+    }
+  }
+}
+
+/** mobile responsive drop down menus for the text?
+*   hamburger dropdown voor nav
+*   img first
+*/
