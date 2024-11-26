@@ -1,0 +1,65 @@
+CV fictief personage Emperor of mankind
+
+homepage + 2 andere p
+
+tekst, afbeeldingen etx
+	moeten relevant zijn
+
+flexbox of grid gebruiken
+	wss grid
+
+css animaties
+	nav
+	hover effects
+	etc
+
+hamburgermenu op mobile
+
+coherent design
+
+__________________________
+	optimised SEO
+on-page seo & off-page seo
+
+off-page: links naar website op andere plaatsen
+
+on-page:
+inhoud en kernwoorden
+kwalitatieve inhoud
+
+kerwoorden: herhalen
+- in "above the fold" → bovenaan waar het direct zichtbaar is
+- niet spammen, wel natuurlijk integreren
+	- gpt kan nalezen en optimaliseren
+- eerste 100 woorden moeten kernwoorden bevatten
+- title html page
+	→ sitename | pagename
+	→ max 60char (bij voorkeur rond de 45-50)
+-headings
+	h1-6
+	h1 krijgt meeste gewicht (1 per pagina minstens met kernwoorden)
+	meta descriptie
+	<meta
+	  name="description"
+	  content="whatever summary">
+- imgs → kleine bestanden (minder dan 1mb bij voorkeur)
+	→ naam img aanpassen!!
+	→ alt text!!
+- urls optimised for seo
+- homepage navigatie → kernwoorden als naam + link naar de pages
+- open graph meta tags
+	voor embeds
+	ogp.me
+- geen fouten in code
+ - design: aantrekkelijk
+
+hosten through github
+settings → pages
+branch → deploy from a branch
+
+!!! URL OP CANVAS INDIENEN
+	doc how to staat op canvas
+
+readme toevoegen
+README.md
+title, short description, live link
