@@ -68,6 +68,10 @@ header {
   }
 }
 
+/* hamburgermenu via
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
+26/11/2024*/
+
 #hamnav label,
 #hamburg {
   display: none;
@@ -204,6 +208,10 @@ footer {
 */
 
 @media only screen and (max-width: 860px) {
+  /* hamburgermenu via
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
+26/11/2024*/
+
   /* #hamitems a {
     box-sizing: border-box;
     display: block;
