@@ -60,11 +60,6 @@ header {
   }
   a:hover {
     color: #fcccc5;
-    border-radius: 10px;
-    padding: 7px;
-    box-shadow: 2px 2px #fcccc5;
-    background-color: #4e0e04;
-    /* rgba(220, 20, 60, 0.366) alternative colour */
   }
 }
 
@@ -87,6 +82,14 @@ nav {
     text-transform: uppercase;
     gap: 13px;
     margin-top: 30px;
+  }
+
+  a:hover {
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 2px 2px #fcccc5;
+    background-color: #4e0e04;
+    /* rgba(220, 20, 60, 0.366) alternative colour */
   }
 
   h3 {
@@ -211,8 +214,11 @@ footer {
   /* hamburgermenu via
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
 26/11/2024*/
+  #hamnav {
+    grid-column: -1/-4;
+  }
 
-  /* #hamitems a {
+  #hamitems a {
     box-sizing: border-box;
     display: block;
     width: 100%;
@@ -231,7 +237,10 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 
   #hamnav input:checked ~ #hamitems {
     display: block;
-  } */
+    background-color: #4e0e04;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+  }
 
   .wrapper {
     gap: 5px;
