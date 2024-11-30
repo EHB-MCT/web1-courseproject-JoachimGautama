@@ -6,6 +6,8 @@ hamburgermenu via
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 26/11/2024
 
+link to [website](https://ehb-mct.github.io/web1-courseproject-JoachimGautama/)
+
 todo:
 copy header to other pages
 fill other pages
