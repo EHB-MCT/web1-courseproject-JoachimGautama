@@ -5,3 +5,7 @@ This is a website about the god-emperor of mankind from WH40k. This website is p
 hamburgermenu via
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 26/11/2024
+
+todo:
+copy header to other pages
+fill other pages
