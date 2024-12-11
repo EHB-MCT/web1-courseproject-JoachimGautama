@@ -14,20 +14,47 @@
   </head>
   <body>
     <div class="outer">
-      <header>
+      <header class="topbot">
         <img src="img/aquila_black-removebg-preview.png" />
         <welcome>
           <h3>The God-Emperor of Mankind</h3>
         </welcome>
-        <nav>
-          <div><a href="home.html">home</a></div>
-          <div><a href="p1.html">greatness</a></div>
-          <div><a href="p2.html">Protection</a></div>
+        <nav id="hamnav">
+          <!-- base from https://www.sliderrevolution.com/resources/css-hamburger-menu/ by rosalieelphick 
+             visited on 11/12/2024
+             adapted for this project-->
+          <input type="checkbox" id="hamburg" />
+          <label for="hamburg">
+            <div class="hamburger ham">
+              <span class="bar bar1"></span>
+              <span class="bar bar2"></span>
+              <span class="bar bar3"></span>
+              <span class="bar bar4"></span>
+            </div>
+          </label>
+          <div id="hamitems">
+            <div><a href="index.html">home</a></div>
+            <div><a href="p1.html">greatness</a></div>
+            <div><a href="p2.html">Protection</a></div>
+          </div>
         </nav>
       </header>
     </div>
     <div class="outerbod">
       <div class="wrapper"></div>
     </div>
+    <footer class="outer">
+      <div class="topbot">
+        <div class="slogan">
+          <h4>The Emperor Protects!</h4>
+        </div>
+        <nav>
+          <div><a href="index.html">history</a></div>
+          <div><a href="p1.html">greatness</a></div>
+          <div><a href="p2.html">Protection</a></div>
+        </nav>
+      </div>
+    </footer>
+  </div>
   </body>
 </html>
