@@ -211,7 +211,7 @@ footer {
 */
 
 @media only screen and (max-width: 860px) {
-  /* hamburgermenu via
+  /* hamburgermenu base via
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
 26/11/2024*/
   #hamnav {
@@ -219,13 +219,12 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
     right: 30%;
     top: -15px;
     z-index: 100;
-  }
 
-  #hamitems a {
-    font-size: medium;
-    box-sizing: content-box;
-    display: block;
-    width: 100%;
+    label {
+      display: inline-block;
+      font-style: large;
+      padding: 10px;
+    }
   }
 
   #hamitems {
@@ -233,12 +232,13 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
     top: 50px;
     display: none;
     background-blend-mode: overlay;
-  }
 
-  #hamnav label {
-    display: inline-block;
-    font-style: large;
-    padding: 10px;
+    a {
+      font-size: medium;
+      box-sizing: content-box;
+      display: block;
+      width: 100%;
+    }
   }
 
   #hamnav input:not(:checked) ~ #hamitems {
@@ -254,28 +254,6 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
              visited on 11/12/2024
              adapted for this project */
   /* GENERAL STYLES */
-  .visuallyHidden {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  .container {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-
   .hamburger {
     margin: 0 auto;
     margin-top: 30px;
@@ -283,9 +261,6 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
     height: 30px;
     position: relative;
     cursor: pointer;
-  }
-
-  .hamburger {
     .bar {
       padding: 0;
       height: 4px;
