@@ -15,3 +15,4 @@ link to [website](https://ehb-mct.github.io/web1-courseproject-JoachimGautama/)
 todo:
 copy header to other pages
 fill other pages
+add extra responsiveness for the smallest screens (apparently mobile is acting up)
