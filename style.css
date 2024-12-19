@@ -15,6 +15,10 @@ body {
   color: #2c0802;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 /* desktop first */
 
 .outer {
@@ -99,11 +103,12 @@ nav {
 
 .outerbod {
   background-color: #fcccc5;
+  padding-top: 10px;
 }
 
 .wrapper {
   width: 95%;
-  margin: 10px auto;
+  margin: 0px auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
