@@ -33,14 +33,14 @@ header {
   img {
     max-height: 80px;
     mix-blend-mode: darken;
-    grid-column: 2/3;
+    grid-column: 1/2;
   }
 
   welcome {
     justify-self: center;
-    margin-top: 30px;
     grid-column: 3/10;
     margin-top: 25px;
+    text-align: center;
   }
 }
 
@@ -103,12 +103,11 @@ nav {
 
 .wrapper {
   width: 95%;
-  margin: 0 auto;
+  margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
 
-  gap: 20px 0px;
   img {
     border-radius: 10px;
   }
@@ -193,11 +192,11 @@ footer {
   }
 
   nav {
-    grid-column: -3/-1;
+    grid-column: -2/-1;
     gap: unset;
     text-transform: lowercase;
     flex-direction: column;
-
+    text-align: right;
     margin-bottom: 15px;
     div {
       margin-top: unset;
@@ -211,6 +210,12 @@ footer {
 */
 
 @media only screen and (max-width: 860px) {
+  header {
+    welcome {
+      margin-top: unset;
+      text-align: center;
+    }
+  }
   /* hamburgermenu base via
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
 26/11/2024*/
@@ -327,7 +332,6 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
   }
 
   .wrapper {
-    gap: 5px;
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
   }
@@ -372,6 +376,16 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
       width: 70%;
       justify-self: center;
       max-height: 450px;
+    }
+  }
+
+  footer {
+    .topbot .slogan {
+      grid-column: 3/10;
+    }
+
+    nav {
+      grid-column: -4/-1;
     }
   }
 }
