@@ -206,6 +206,12 @@ footer {
     div {
       margin-top: unset;
     }
+    a:hover {
+      border-radius: unset;
+      padding-top: unset;
+      padding-bottom: unset;
+      box-shadow: unset;
+    }
   }
 }
 
@@ -385,10 +391,6 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
   }
 
   footer {
-    .topbot .slogan {
-      grid-column: 3/10;
-    }
-
     nav {
       grid-column: -4/-1;
     }
