@@ -201,11 +201,15 @@ nav {
     grid-column: span 7;
   }
   div:nth-child(even) {
-    grid-column: -8/-1;
+    grid-column: -1/-8;
     text-align: right;
     h3 {
       text-align: right;
     }
+  }
+
+  img {
+    grid-column: span auto;
   }
 }
 
